@@ -1,11 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Repo from '../Repo/Repo.jsx';
 
 const Repos = ({ repos }) => (
   <ul>
-    repos.map(repo => {
-      <Repo repo={repo} />
-    })
+    {repos.map(repo => {
+      <Repo repo={repo} />;
+    })}
   </ul>
 );
 

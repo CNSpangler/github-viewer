@@ -6,8 +6,7 @@ describe('Repos component', () => {
   it('renders Repos', () => {
     const wrapper = shallow(
       <Repos 
-        name="portfolio"
-        url="https://github.com/CNSpangler/portfolio"
+        repos
       />
     );
     expect(wrapper).toMatchSnapshot();
