@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form component renders Form 1`] = `
+<Fragment>
+  <input
+    name="username"
+    onChange={[Function]}
+    type="input"
+    value="cnspangler"
+  />
+  <button
+    onClick={[Function]}
+  >
+    Search
+  </button>
+</Fragment>
+`;
