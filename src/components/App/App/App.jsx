@@ -1,6 +1,10 @@
 import React from 'react';
-import Form from '../../Form/Form.jsx';
+import UserPicker from '../../../containers/UserPicker/UserPicker.jsx';
 
 export default function App() {
-  return <Form />;
+  return (
+    <>
+      <UserPicker />
+    </>
+  );
 }
