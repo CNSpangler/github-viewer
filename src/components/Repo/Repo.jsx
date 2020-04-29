@@ -1,13 +1,13 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Repo = (repo) => (
-  <a href={repo.html_url}>{repo.name}</a>
+const Repo = ({ html_url, name }) => (
+  <a href={html_url}>{name}</a>
 );
 
 Repo.propTypes = {
-  name: PropTypes.string.isRequired,
   html_url: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired
 };
 
 export default Repo;
