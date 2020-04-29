@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repo component renders Repo 1`] = `
+<a
+  href="https://github.com/CNSpangler/portfolio"
+>
+  portfolio
+</a>
+`;

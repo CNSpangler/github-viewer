@@ -7,7 +7,7 @@ describe('Form component', () => {
     const wrapper = shallow(<Form 
       username="cnspangler"
       onUsernameChange={() => {}}
-      onButtonClick={() => {}}
+      onSubmit={() => {}}
     />);
     expect(wrapper).toMatchSnapshot();
   });

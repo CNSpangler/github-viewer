@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Repos component renders Repos 1`] = `
+<ul>
+  <li>
+    <Repo
+      html_url="https://github.com/CNSpangler/pokedex-router"
+      name="pokedex-router"
+    />
+  </li>
+  <li>
+    <Repo
+      name="portfolio"
+      url="https://github.com/CNSpangler/portfolio"
+    />
+  </li>
+</ul>
+`;

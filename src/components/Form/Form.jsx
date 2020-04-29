@@ -1,17 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Form = ({ username, onUsernameChange, onButtonClick }) => (
-  <>
+const Form = ({ username, onUsernameChange, onSubmit }) => (
+  <form onSubmit={onSubmit}>
     <input type="input" name="username" value={username} onChange={onUsernameChange}/>
-    <button onClick={onButtonClick}>Search</button>
-  </>
+    <button>Search</button>
+  </form>
 );
 
 Form.propTypes = {
   username: PropTypes.string.isRequired,
   onUsernameChange: PropTypes.func.isRequired,
-  onButtonClick: PropTypes.func.isRequired
+  onSubmit: PropTypes.func.isRequired
 };
 
 export default Form;
