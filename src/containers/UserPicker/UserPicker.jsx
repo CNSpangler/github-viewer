@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Form from '../../components/Form/Form.jsx';
-// import User from '../User/User.jsx';
+import User from '../User/User.jsx';
 import { fetchUser, fetchRepos } from '../../services/github-endpoints.js';
 
 export default class UserPicker extends Component {
@@ -38,7 +38,7 @@ export default class UserPicker extends Component {
     return (
       <div>
         <Form />
-        {/* <User /> */}
+        <User />
       </div>
     );
   }
