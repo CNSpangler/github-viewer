@@ -1,15 +1,17 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Form component renders Form 1`] = `
-<Fragment>
+<form
+  onSubmit={[Function]}
+>
   <input
     name="username"
-    onUsernameChange={[Function]}
+    onChange={[Function]}
     type="input"
     value="cnspangler"
   />
   <button>
     Search
   </button>
-</Fragment>
+</form>
 `;

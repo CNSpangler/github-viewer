@@ -21,18 +21,19 @@ export default class UserPicker extends Component {
     e.preventDefault();
     
     fetchUser(this.state.username)
-      .then(user => this.setState({ 
-        username: user.username,
-        followers: user.followers,
-        following: user.following,
-        profile: user.url,
-        // loading: false,
-      }));
+      .then(user => {
+        this.setState({
+          username: user.username,
+          followers: user.followers,
+          following: user.following,
+          profile: user.url
+        });
+      });
 
     fetchRepos(this.state.username)
-      .then(repos => this.setstate({
-        repos: [...repos]
-      }));
+      .then(repos => {
+        this.setState({ repos });
+      });
   }
 
   render() {

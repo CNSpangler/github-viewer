@@ -7,7 +7,7 @@ describe('Repo component', () => {
     const wrapper = shallow(
       <Repo 
         name="portfolio"
-        url="https://github.com/CNSpangler/portfolio"
+        html_url="https://github.com/CNSpangler/portfolio"
       />
     );
     expect(wrapper).toMatchSnapshot();
