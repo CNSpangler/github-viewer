@@ -1,10 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Repo = ({ name, url }) => (
-  <li>
-    <a href={url}>{name}</a>
-  </li>
+const Repo = ({ repo }) => (
+  <a href={repo.html_url}>{repo.name}</a>
 );
 
 Repo.propTypes = {

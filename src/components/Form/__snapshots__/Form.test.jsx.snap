@@ -4,13 +4,11 @@ exports[`Form component renders Form 1`] = `
 <Fragment>
   <input
     name="username"
-    onChange={[Function]}
+    onUsernameChange={[Function]}
     type="input"
     value="cnspangler"
   />
-  <button
-    onClick={[Function]}
-  >
+  <button>
     Search
   </button>
 </Fragment>
